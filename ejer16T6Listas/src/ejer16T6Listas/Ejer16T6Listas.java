@@ -12,6 +12,7 @@ public class Ejer16T6Listas {
 		//2, Array
 		List<String> lista = new ArrayList<>();
 		
+		int estructura=0;
 		int cadena=7;
 		for(int i=0;i<cadena;i++) {
 			System.out.println("Introduce palabra: ");
@@ -23,7 +24,7 @@ public class Ejer16T6Listas {
 		for(String palabra:lista) {
 			int longitud=palabra.length();
 			
-			System.out.println("tiene: "+longitud);
+			System.out.println("La palabra tiene: "+longitud);
 		}
 		
 		
